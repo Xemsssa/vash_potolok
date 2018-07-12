@@ -1,0 +1,150 @@
+html, body {
+    /* box-sizing: border-box; */
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* header block */
+.header {
+    background-color: #f9f9f9;
+}
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+
+.header span {
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 19px;
+}
+
+.header span:first-child{
+    color: #ee3a44;
+}
+
+.header span{
+    color: #3e87c7;
+}
+
+.header .logo_text div{
+    /* display: none; */
+    font-size: 12px;
+}
+
+.work_hour, .request {
+    /* border-right: 1px solid #ee3a44;  */
+    /* height: 20%; */
+    font-size: 14px;
+}
+
+.work_hour, .request, .send_request{
+    display: flex;
+    align-items: center;
+}
+
+.send_request button{
+    color: #fff;
+    border-style: none;
+}
+
+.send_request a{
+    color: #fff;
+    /* border-style: none; */
+    background-color: #f93a40;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.header div div img {
+    margin-right: 12px;
+}
+
+.header_contacts {
+    color: #3588d3;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* banner */
+
+.banner {
+    background-image: url('../images/background.png');
+    /* height: 821px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+
+.banner .banner_content {
+    text-align: center;
+    margin: 0 auto;
+    /* display: flex; */
+    padding: 80px 0; 
+}
+
+.banner_content h1 {
+    font-size: 45px;
+    /* padding: 0; */
+    margin: 0;
+    /* margin-bottom: 20px; */
+}
+
+.banner_content p {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.banner_content_center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 0px; */
+}
+
+.banner_content_wrapper {
+    border: 10px solid #3588d3;
+    width: 320px;
+    height: 80px;
+    /* text-align: center; */
+}
+
+.banner_content .top div{
+    border-bottom: 0;
+}
+
+.banner_content .middle div{
+    border-bottom: 0;
+    border-top: 0;
+    height: 10px;
+    margin: 5px 0;
+}
+
+.banner_content .bottom div{
+    border-top: 0;
+    height: 130px;
+}
+
+.banner_content_price {
+    background-color: #3588d3;
+    width: 220px;
+    text-align: center;
+}
+
+/*  */
