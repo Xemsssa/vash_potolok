@@ -449,4 +449,54 @@ input[type=range] {
         height: 250px;
     }
     
+    .header .container{
+        display: inline-block;
+        width: 100%;
+        /* padding: 0; */
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .header_logo {
+        width: 33%;
+        float: left;
+    }
+
+    .work_hour {
+        width: 33%;
+        /* float: right; */
+    }
+    .request {
+        width: 33%;
+        /* float: right; */
+    }
+
+    .send_request {
+        width: 33%;
+        float: right;
+        position: relative;
+        right: 0;
+    }
+
+    .header_contacts {
+        width: 33%;
+        float: right;
+        display: inline;
+        text-align: right;
+        position: relative;
+        top: 0;
+        right: 0;
+        
+    }
+
+    .header_contacts div div {
+        display: flex;
+        /* text-align: right; */
+        
+    }
+
+    .header_contacts img {
+        height: 18px;
+
+    }
 }
