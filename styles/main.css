@@ -6,7 +6,7 @@ html, body {
 
     box-sizing: border-box;
     /* overflow: hidden; */
-    /* overflow-x: hidden;  */
+    overflow-x: hidden; 
 }
 
 .container {
@@ -67,7 +67,7 @@ html, body {
     border-style: none;
 }
 
-.send_request a{
+.send_request a {
     color: #fff;
     /* border-style: none; */
     background-color: #f93a40;
@@ -78,7 +78,12 @@ html, body {
 }
 
 .header div div img {
-    margin-right: 12px;
+    margin-right: 10px;
+}
+
+.header_contacts div div{
+    display: flex;
+    align-items: center;
 }
 
 .header_contacts {
@@ -87,6 +92,10 @@ html, body {
     align-items: center;
     font-size: 18px;
     font-weight: 600;
+}
+
+.header_contacts img {
+    height: 18px;
 }
 
 /* banner */
@@ -219,7 +228,7 @@ html, body {
 }
 
 #phone_number {
-    padding: 13px 20px;
+    padding: 13px 10px;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
 
@@ -238,6 +247,15 @@ html, body {
     padding: 8px  10px;
 }
 
+.calculator_send_request a {
+    color: #fff;
+    /* border-style: none; */
+    background-color: #f93a40;
+    padding: 12px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
 
 /* slider */
 
@@ -423,7 +441,7 @@ input[type=range] {
 @media (max-width: 1024px) {
     .calculator {
         width: 75%;
-        width: 90%
+        /* width: 90% */
     }
 
     .our_works {
@@ -452,7 +470,6 @@ input[type=range] {
     .header .container{
         display: inline-block;
         width: 100%;
-        /* padding: 0; */
         box-sizing: border-box;
         position: relative;
     }
@@ -463,40 +480,108 @@ input[type=range] {
     }
 
     .work_hour {
+        /* margin-top: 10px; */
+        padding-top: 10px;
+        padding-bottom: 15px;
         width: 33%;
-        /* float: right; */
-    }
-    .request {
-        width: 33%;
-        /* float: right; */
     }
 
     .send_request {
-        width: 33%;
         float: right;
-        position: relative;
-        right: 0;
+        position: absolute;
+        /* position: relative; */
+        right: 20px;
+        top: 70px;
     }
 
     .header_contacts {
-        /* width: 33%; */
-        /* float: right; */
-        display: inline;
-        text-align: right;
+       float: right;
+       position: absolute;
+       right: 20px;
+       top: 20px;
+    }
+   
+}
+
+@media (max-width: 768px) {
+    .header .container {
+        display: block;
+    }
+
+    .header_logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .work_hour {
+        padding-top: 20px;
+        padding-bottom: 20px
+    }
+
+    .request {
+        margin-bottom: 15px;
+    }
+
+    .header_contacts {
         position: relative;
-        top: 0;
+        top: -110px;
         right: 0;
-        
     }
 
-    .header_contacts div div {
+
+    .send_request {
+        position: absolute;
+        top: 183px;
+        /* right: 0; */
+    }
+
+    .banner .banner_content {
+        /* padding-left: 20px;  */
+        /* padding-right: 20px; */
+        box-sizing: border-box;
+    }
+
+    .calculator {
+        width: 90%;
+    }
+}
+
+@media(max-width: 600px) {
+    .calculator {
+        /* width: 100%; */
+        padding: 20px;
+    }
+}
+
+@media(max-width: 450px) {
+    .header .container {
+        display: block;
+        height: 370px;
+    }
+
+
+
+    .work_hour, .request, .header_contacts, .send_request {
+        width: 100%;
         display: flex;
-        /* text-align: right; */
-        
+        /* display: block; */
+        justify-content: center;
     }
 
-    .header_contacts img {
-        height: 18px;
+    .request {
+        margin-bottom: 0;
+    }
+   
+    .send_request {
+        position: relative;
+        top: 20px;
+        right: 0;
+        /* margin-bottom: 120px;; */
+    }
 
+    .header_contacts {
+        position: relative;
+        top: 40px;
+        right: 0;
     }
 }
