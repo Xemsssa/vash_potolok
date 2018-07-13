@@ -3,7 +3,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .container {
@@ -37,6 +37,11 @@ html, body {
 .header span{
     color: #3e87c7;
 }
+/* 
+.red_divider {
+    padding-right:10%;
+    border-right: 1px solid red;
+} */
 
 .header .logo_text div{
     /* display: none; */
@@ -143,8 +148,117 @@ html, body {
 
 .banner_content_price {
     background-color: #3588d3;
-    width: 220px;
+    width: 80px;
+    /* text-align: center; */
+    padding: 5px 15px ;
+}
+
+.banner_content_price span {
+    font-size: 45px;
+    
+}
+
+/* calculator */
+.calculator {
+    background-color: #f9f9f9;
+    color: #000;
+    padding: 45px 50px;
+    width: 63%;
+    font-weight: 700;
+    text-align: left;
+    box-sizing: border-box;
+    box-shadow: #000 10px 10px 50px;
+}
+
+/* .calculator label { */
+    /* margin-bottom: 70px; */
+/* } */
+
+.calculator label:first-child{
+    font-size: 14px;
+}
+
+.calculator div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calculator  .calculator_form_parts {
+    margin-bottom: 50px;
+}
+
+#size {
+    width: 50px;
+    /* display: none; */
+    text-align: center;
+    padding: 13px 3px;
+    margin-right: 5px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+}
+
+#range_size {
+    width: 50%;
+}
+
+#phone_number {
+    padding: 13px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+
+}
+
+.calculator p  {
+    margin-bottom: 55px;
+}
+
+.calculator p img {
+    margin-right: 10px;
+}
+
+.calculator .calculator_input_style {
+    /* display: none; */
+    padding: 8px  10px;
+}
+
+/* our_works */
+
+.our_works {
+    padding: 40px 0;
     text-align: center;
 }
 
-/*  */
+.our_works h2 {
+    font-size: 24px;
+    margin-bottom: 80px;
+}
+
+.our_works h2 img {
+    margin-right: 5px;
+}
+
+.our_work_example {
+    width: 33%;
+    /* margin: 0 20px; */
+}
+
+.our_work_image {
+    /* border: 1px solid red; */
+    height: 240px;
+    background-image: url('../images/our_work1.png');
+}
+
+.our_works_gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.our_works_gallery a {
+    text-decoration: none;
+    color: #000;
+}
+
+.our_work_example p {
+    text-decoration: none;
+}

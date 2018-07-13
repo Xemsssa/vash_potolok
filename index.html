@@ -31,9 +31,12 @@
                 <div>
                     <img src="/images/work_hour.png" alt="work_hours">
                 </div>
-                График работы: 
-                <br>
-                с 9:00 до 20:00
+                <div class="red_divider">
+                    График работы: 
+                    <br>
+                    с 9:00 до 20:00
+                </div>
+                
             </div>
             <div class="request">
                 <div>
@@ -52,8 +55,7 @@
             <div class="header_contacts">
                 <div>
                     <img src="/images/call_us.png" alt="call_us">
-                    (066) 953-03-95
-                    <br>
+                    (066) 953-03-95<br>
                     <img src="/images/call_us.png" alt="call_us">
                     (066) 953-03-95
                 </div>
@@ -86,17 +88,96 @@
                         <div class="banner_content_wrapper"></div>
                 </div>
 
-                <div class="banner_content_price">
-                    цене от 
-                    140 
-                    грн/м2 
+                <div class="banner_content_center banner_content_price">
+                    <div>
+                        цена от
+                        <br> 
+                        <span>140</span>
+                        <br> 
+                        грн/м2 
+                    </div>
+                    
                 </div>
- 
+                
+                <div class=" banner_content_center">
+                    <form action="" class="calculator">
+                        <!-- <label for=""> -->
+                            <p>
+                                <img src="/images/calc_logo.png" alt="calc">Рассчитайте стоимость
+                            </p>
+                        <!-- </label> -->
+
+                        <div class="calculator_form_parts">
+                            <label for="size">
+                                Площадь комнаты: 
+                            </label>
+                            <input type="range" id="range_size">
+                            <div>
+                                <input type="number" id="size" autofocus value="125"> м<sup>2</sup>
+                            </div>
+                        </div>
+
+                        <div >
+                            <label for="phone_number">
+                                Номер телефона: 
+                            </label>
+                            <input type="phone" id="phone_number" placeholder="+ 38 ( 0 _ _ ) _ _ -_ _ - _ _ _ "> 
+                            
+                            <div class="send_request"> <a href="">Вызвать замерщика</a></div>
+                        </div>
+                    </form>    
+                    
+                </div>
 
             </div>
         </div>
     </div>
     <!-- banner END -->
+
+    <!-- our_works START -->
+    <div class="">
+        <div class="container">
+            <div class="our_works">
+                <h2><img src="./images/our_works_icon.png" alt="our_works_icon">
+                    Наши работы
+                </h2>
+
+                <div class="our_works_gallery">
+                    <a href="#" class="our_work_example">
+                        <!-- <img src="./images/our_work1.png" alt=""> -->
+                        <div class="our_work_image"></div>
+                        <p>
+                            Натяжной потолок матовый <br>
+                            г. Житомир, ул. Киевская 50
+                        </p>
+                    </a>
+
+                    <a href="#" class="our_work_example">
+                         <!-- <img src="./images/our_work1.png" alt=""> -->
+                         <div class="our_work_image"></div>
+                         <p>
+                             Натяжной потолок матовый <br>
+                             г. Житомир, ул. Киевская 50
+                         </p>
+                    </a>
+
+                    <a href="#" class="our_work_example">
+                        <!-- <img src="./images/our_work1.png" alt=""> -->
+                        <div class="our_work_image"></div>
+                        <p>
+                            Натяжной потолок матовый <br>
+                            г. Житомир, ул. Киевская 50
+                        </p>
+                    </a>
+                </div>
+
+                <a href="#"><img src="./images/load_more.png" alt="load_more">Показать еще работы</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- our_eorks END -->
 
 </body>
 </html>
