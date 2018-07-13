@@ -479,8 +479,8 @@ input[type=range] {
     }
 
     .header_contacts {
-        width: 33%;
-        float: right;
+        /* width: 33%; */
+        /* float: right; */
         display: inline;
         text-align: right;
         position: relative;
