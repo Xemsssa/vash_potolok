@@ -1,8 +1,15 @@
 const val = 120;
 
-let input_number = $('#size');
-let input_range = $('#range_size');
+const input_number = $('#size');
+const input_range = $('#range_size');
 input_range.on("change mousemove",  updateValue);
+// $('#range_size').on("change mousemove",  function() {
+//     updateValue(input_number); 
+// });
+
+// function updateValue(params) {
+    
+// }
 
 function updateValue() {
 
