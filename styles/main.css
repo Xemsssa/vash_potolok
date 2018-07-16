@@ -375,6 +375,10 @@ input[type=range] {
     float: left;
 }
 
+.our_work_example img {
+    max-width: 100%;
+}
+
 .our_work_example p{
     margin: 10px 0 20px 0;
 }
@@ -392,17 +396,17 @@ input[type=range] {
     background-image: url('../images/our_work1.png');
 } */
 
-/* .our_works_gallery {
+.our_works_gallery {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-} */
-
+}
+/* 
 .our_works_gallery::after {
     clear: both;
     content: '';
     display: table;
-}
+} */
 
 .our_works_gallery a {
     text-decoration: none;
@@ -437,6 +441,13 @@ input[type=range] {
 
     }
 }
+
+/* @media (max-width: 1100px) {
+    
+    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+        width: 50%;
+    }
+} */
 
 @media (max-width: 1024px) {
     .calculator {
@@ -543,6 +554,10 @@ input[type=range] {
 
     .calculator {
         width: 90%;
+    }
+
+    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+        width: 50%;
     }
 }
 
