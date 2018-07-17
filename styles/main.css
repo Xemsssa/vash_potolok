@@ -225,13 +225,13 @@ html, body {
 
 #range_size {
     width: 50%;
+    border-radius: 20px;
 }
 
 #phone_number {
     padding: 13px 10px;
     border: 1px solid #e1e1e1;
     border-radius: 5px;
-
 }
 
 .calculator p  {
@@ -574,7 +574,11 @@ input[type=range] {
         width: 100%;
     }
 
-    .calculator .calculator_send_request {
+    #phone_number {
+        width: 45%;
+    }
+
+    .calculator .calculator_send_request a {
         width: 100%;
     }
     .calculator #size, .calculator_form_parts div div{
