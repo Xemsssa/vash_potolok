@@ -15,6 +15,13 @@ input_number.on("change", function() {
                 + ')'
                 );
 })
+
+function updateValue2 (one, two) {
+    console.log(one.val());
+    console.log(two.val());
+    // return two.val(one.val());
+}
+
 // $('#range_size').on("change mousemove",  function() {
 //     updateValue(input_number); 
 // });

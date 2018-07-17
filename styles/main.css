@@ -612,6 +612,12 @@ input[type=range] {
     }
 }
 
+@media(max-width: 505px) {
+    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+        width: 100%;
+    }
+}
+
 @media(max-width: 450px) {
     .header .container {
         display: flex;
@@ -702,8 +708,7 @@ input[type=range] {
         top: -10px;
     }
 
-
-    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+    /* .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
         width: 100%;
-    }
+    } */
 }
