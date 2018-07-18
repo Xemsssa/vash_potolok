@@ -221,10 +221,12 @@ html, body {
     width: 50px;
     /* display: none; */
     text-align: center;
-    padding: 13px 3px;
+    padding: 13px 1px;
     margin-right: 5px;
-    border: 1px solid #e1e1e1;
+    border: 2px solid #e1e1e1;
     border-radius: 5px;
+    background-color: #FCFCFC;
+    font-weight: bold;
 }
 
 #range_size {
@@ -233,9 +235,11 @@ html, body {
 }
 
 #phone_number {
-    padding: 13px 10px;
-    border: 1px solid #e1e1e1;
+    padding: 13px 16px;
+    border: 2px solid #e1e1e1;
     border-radius: 5px;
+    background-color: #FCFCFC;
+    color: #000;
 }
 
 .calculator p  {
@@ -255,13 +259,18 @@ html, body {
     color: #fff;
     /* border-style: none; */
     background-color: #f93a40;
-    padding: 12px 10px;
+    padding: 10px 14px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 /* slider */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
 
 /* #3588D3 */
 /* #F93A40 */
@@ -402,7 +411,8 @@ input[type=range] {
 
 .our_works_gallery {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: normal;
     flex-wrap: wrap;
 }
 /* 
@@ -583,6 +593,12 @@ input[type=range] {
    
 }
 
+@media(max-width: 900px) {
+    .calculator {
+        width: 90%;
+    }
+}
+
 @media (max-width: 768px) {
     .header .container {
         display: block;
@@ -608,7 +624,6 @@ input[type=range] {
         right: 0;
     }
 
-
     .send_request {
         position: absolute;
         top: 183px;
@@ -621,56 +636,39 @@ input[type=range] {
         box-sizing: border-box;
     }
 
-    .calculator {
-        width: 90%;
-    }
-
-    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
-        width: 50%;
-    }
-}
-
-@media(max-width: 650px) {
-    .calculator {
-        top: 650px;
-    }
-
-    .calculator div {
-        display: block;
-    }
-
     #range_size {
         width: 100%;
     }
 
-    #phone_number {
-        width: 45%;
-    }
-
-    .calculator .calculator_send_request a {
-        width: 100%;
-    }
-    .calculator #size, .calculator_form_parts div div{
-        display: none;
-    }
-
     .calculator .calculator_form_parts {
-        margin: 20px 0 40px;
+        margin: 10px 0 40px 0;
     }
 
-    .calculator div label{
-        display: block;
-        margin-bottom: 20px;
+    /* .calculator_send_request {
+        position: relative;
+        top: -10px;
+    } */
+
+    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+        width: 50%;
+    }
+    .calculator {
+        top: 650px;
+        padding: 30px;
+    }
+
+    .calculator div {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    #range_size {
+        width: 50%;
     }
 
     .calculator_send_request {
         position: relative;
     }
-
-    #phone_number {
-        margin-bottom: 50px;
-    }
-
     
     .our_works {
         padding-top: 250px;
@@ -679,6 +677,58 @@ input[type=range] {
     .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
         width: 50%;
     }
+}
+
+@media (max-width: 700px) {
+
+    .calculator .phone_form_part  {
+        display: block;
+    }
+
+    /* .calculator .calculator_send_request {
+        padding-top: 40px;
+    } */
+
+    #phone_number {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media(max-width: 560px) {
+    /* .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
+        width: 100%;
+    } */
+
+    .calculator .calculator_form_parts {
+        display: block;
+    }
+
+    .calculator .calculator_form_parts div div{
+        float: right;
+    }
+
+    #size {
+        /* margin-top: 20px */
+    }
+
+    #range_size {
+        min-width: 60%;
+        margin-top: 40px;
+    }
+
+    .phone_form_part label{
+        width: 100%;
+    }
+     
+    .calculator_form_input {
+        float: right ;
+        padding-top: 25px;
+    }
+
+    .calculator #phone_number {
+        margin-top: 20px;
+    } 
 }
 
 @media(max-width: 505px) {
@@ -751,7 +801,7 @@ input[type=range] {
         width: 100%;
         padding: 30px;
     }
-
+/* 
     .calculator div {
         display: block;
     }
@@ -775,7 +825,7 @@ input[type=range] {
     .calculator_send_request {
         position: relative;
         top: -10px;
-    }
+    } */
 
     /* .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
         width: 100%;
