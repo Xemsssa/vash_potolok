@@ -503,14 +503,12 @@ input[type=range] {
     .header .container {
         padding-left:20px;
         padding-right: 20px;
-
     }
 }
 
 /* @media (max-width: 1100px) {
-    
-    .our_work_example, .our_work_example:first-child, .our_work_example:last-child{
-        width: 50%;
+    .our_work_example:first-child, .our_work_example:last-child {
+        width: 33%;
     }
 } */
 
@@ -539,10 +537,10 @@ input[type=range] {
         width: 33%;
     }
 
-    .our_work_example img {
+    /* .our_work_example img { */
         /* width: 100%; */
         /* height: 250px; */
-    }
+    /* } */
 
     .our_work_image {
         width: 100%;
