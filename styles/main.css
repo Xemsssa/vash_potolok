@@ -176,7 +176,7 @@ html, body {
     position: relative;
     top: -60px;
 
-    padding: 5px 15px ;
+    padding: 8px 15px ;
 }
 
 .banner_content_price span {
@@ -711,9 +711,9 @@ input[type=range] {
         float: right;
     }
 
-    #size {
-        /* margin-top: 20px */
-    }
+    /* #size {
+        margin-top: 20px
+    } */
 
     #range_size {
         min-width: 60%;
