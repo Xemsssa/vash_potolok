@@ -512,6 +512,60 @@ input[type=range] {
 }
 
 
+
+/* factury */
+
+.factury {
+    text-align: center;
+}
+
+.factury_type {
+    width: 25%;
+    text-align: center;
+    /* position: relative; */
+}
+
+.factury_image {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ceil_type {
+    padding: 20px 20px;
+    color:#fff;
+    position: absolute;
+    bottom: -20px;
+
+    background-color: #3588d3;
+}
+
+.ceil_image {
+    max-width: 100%;
+}
+
+.ceil_price {
+    color: #3588d3;
+    font-size: 22px;
+}
+
+.ceil_adwantages {
+    display: flex;
+    justify-content: center;
+}
+
+.ceil_adwantages-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.ceil_adwantages-text div:before {
+    content: url("../images/check_icon.png");
+    margin-right: 8px; 
+}
+
 @media (max-width: 1200px){
     .header .container {
         padding-left:20px;
