@@ -516,9 +516,13 @@ input[type=range] {
 /* factury */
 
 .factury_block {
+    padding: 20px 0;
     text-align: center;
 }
 
+.factury_block h2{
+    margin-bottom: 70px
+}
 
 .factury{
     display: flex;
@@ -531,7 +535,7 @@ input[type=range] {
     text-align: center;
     /* border: 1px solid red; */
     padding: 10px;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
     box-sizing: border-box
     /* position: relative; */
 }
@@ -813,6 +817,7 @@ input[type=range] {
 /* our_adwantages */
 .our_adwantages_block {
     text-align: center;
+    padding: 70px 0;
 }
 
 .our_adwantages_block h2 {
