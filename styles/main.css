@@ -19,7 +19,7 @@ html, body {
     background-color: #f9f9f9;
 }
 
-.header_logo a {
+.header_logo {
     text-decoration: none;
     color: #000;
 }
@@ -31,17 +31,21 @@ html, body {
 
 }
 
-.header span {
+.logo_text {
     text-transform: uppercase;
     font-weight: 1000;
     font-size: 19px;
 }
 
-.header span:first-child{
+.logo_text div{
+    color: #3588d3;
+}
+
+.logoText_red{
     color: #ee3a44;
 }
 
-.header span{
+.logoText_blue{
     color: #3e87c7;
 }
 /* 
@@ -66,14 +70,14 @@ html, body {
     align-items: center;
 }
 
-.send_request button{
+.send_request a{
     color: #fff;
     border-style: none;
 }
 
-.send_request a {
+.send_request button {
     color: #fff;
-    /* border-style: none; */
+    border-style: none;
     background-color: #f93a40;
     padding: 10px 16px;
     text-decoration: none;
@@ -100,6 +104,34 @@ html, body {
 
 .header_contacts img {
     height: 18px;
+}
+
+.header_contacts a {
+    text-decoration: none;
+    color: #3588d3;
+}
+
+/* modal */
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+
+.requestForm_theme {
+    width: 100% !important;
+    right: 0 !important;
+    background-color: #f0f2f3 !important;
 }
 
 /* banner */
@@ -543,7 +575,8 @@ input[type=range] {
 @media(max-width: 900px) {
     .factury_type {
         width: 50%;
-        box-sizing: border-box; 
+        box-sizing: border-box;
+        margin-bottom: 40px; 
     }
 }
 
@@ -621,7 +654,7 @@ input[type=range] {
 
 @media(max-width: 1050px) {
     .ceil_type {
-        width: 50%;
+        /* width: 50%; */
     }
 }
 
@@ -820,6 +853,12 @@ input[type=range] {
     padding: 70px 0;
 }
 
+.our_adwantages_block:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
 .our_adwantages_block h2 {
     margin-bottom: 80px;
 }
@@ -831,9 +870,11 @@ input[type=range] {
 
 .adwantage {
     width: 50%;
-    /* text-align: left; */
-    /* flex-wrap: wrap; */
-    /* display: flex; */
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -841,9 +882,113 @@ input[type=range] {
     color: #3588d3;
 }
 
+.adwantage_image {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border: #000;
+    background-color: #f0f2f3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .adwantage img {
     /* width: 45px; */
     height:42px;
+}
+
+.gas_image img{
+    position: relative;
+    left: 6px;
+}
+
+
+/* footer */
+.footerBlock {
+    background-color: #f0f2f3;
+    padding: 70px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    text-decoration: none;
+}
+/* 
+.logoText_red {
+    color: #ee3a44;
+}
+
+.logoText_blue {
+    color: #3588d3;
+} */
+
+.footerSocial_image {
+    width: 40px;
+}
+
+.footerSocial_image:first-child {
+    margin-right:10px;
+}
+
+.footer_workHour, .footer_request{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.workHour_image {
+    margin-right: 10px;
+}
+
+.footer_contactsBlock {
+    /* width: 100%; */
+    align-items: center;
+}
+
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    left: -42px;
+    position: relative;
+}
+
+.footer_contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    /* position: relative; */
+    /* left: -42px; */
+}
+
+.footer_contact img{
+    width: 20px;
+}
+
+
+.footer_contact a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+@media(max-width:765px) {
+    .footer{
+        /* display: block; */
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer_margin{
+        margin-bottom: 30px;
+    }
 }
 
 @media(max-width: 900px) {
