@@ -57,7 +57,7 @@
            
             <div class="send_request">
                 <!-- <a href="" id="myBtn">Вызвать замерщика</a> -->
-                <button  id="request" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#access-policy">Вызвать замерщика</button>
+                <button  id="request" data-fancybox href="#request_form">Вызвать замерщика</button>
                 <!-- <button>Вызвать замерщика</button> -->
 
 
@@ -82,31 +82,6 @@
                             </div>
                         </div>
                     </div>
-                
-            <!-- Modal -->
-            <div id="myModal" class="modal">
-
-                    <!-- Modal content -->
-                    <div class="modal-content">
-                            <div class="free_measure_request_block">
-                                    <div class="free_measure_container">
-        
-                                        <form action="">
-                                            <label for="">
-                                            <h3>Оставьте заявку и наш замерщик бесплатно приедет к Вам </h3>
-                                            
-                                                <input type="text" name="name" placeholder="Как вас зовут">
-                                                <input type="text" name="phone" placeholder="Номер телефона">
-                    <!--                            <input type="button" class="yellow_button" name="submit" value="Оставить заявку">-->
-                                                <div class="request_button">
-                                                    <button class="" >Вызвать замерщика</button>
-                                                </div>     
-                                            </label>
-                                        </form>
-                                    </div>
-                                </div>
-                    </div>
-                    
                 </div>
             </div>
 
@@ -169,7 +144,7 @@
                     <form action="" class="calculator">
                         <!-- <label for=""> -->
                             <p>
-                                <img src="images/calc_logo.png" alt="calc">Рассчитайте стоимость
+                                <img src="images/calc_icon.svg" alt="calc" class="calc_icon">Рассчитайте стоимость
                             </p>
                         <!-- </label> -->
 
@@ -204,7 +179,7 @@
     <div class="">
         <div class="container">
             <div class="our_works">
-                <h2><img src="images/our_works_icon.png" alt="our_works_icon">
+                <h2 class="blockHeader_theme"><img src="images/our_works_icon.svg" alt="our_works_icon" class="blockHeader_icon">
                     Наши работы
                 </h2>
 
@@ -227,18 +202,17 @@
 
                     <a href="images/our_work2.png" class="our_work_example" rel="group1">
                         <div class="show">
+
                         </div>
                         <div class="our_work_example_image">
                             <div class="zoom_test">
                                 <img src="images/zoom_icon.png" alt="">
                             </div>    
-                            <img class="our_work_image" src="images/our_work2.png" alt="">
+                            <img class="" src="images/our_work2.png" alt="">
+                            
                         </div>
-                        <!-- <div class="our_work_image"></div> -->
-                        <p>
-                            Натяжной потолок матовый <br>
-                            г. Харьков, ул. Киевская 50
-                        </p>
+                        
+                        
                     </a>
 
                     <a href="images/our_work3.png" class="our_work_example" rel="group1" >
@@ -349,7 +323,7 @@
     <!-- factury START -->
     <div class="factury_block">
         <div class="container">
-            <h2>Фактуры натяжных потолков</h2>
+            <h2 class="blockHeader_theme"><img src="images/factuta.svg" class="blockHeader_icon" alt="blockHeader_icon">Фактуры натяжных потолков</h2>
             <div class="factury">
 
 
@@ -450,7 +424,7 @@
     <div class="free_measure_request">
             <div class="container">
                 <div class="car">
-                        <h2>Бесплатный выезд на замер</h2>
+                        <h2 class="blockHeader_theme"><img src="images/request_icon.svg" alt="request_icon" class="blockHeader_icon">Бесплатный выезд на замер</h2>
                         <div class="free_measure_request_block">
                             <div class="free_measure_container">
 
@@ -477,7 +451,7 @@
     <!-- our_adwantages START -->
     <div class="our_adwantages_block">
         <div class="container">
-            <h2>Наши преимущества</h2>
+            <h2 class="blockHeader_theme"><img src="images/adwantages_icon.svg" alt="request_icon" class="blockHeader_icon">Наши преимущества</h2>
 
             <div class="our_adwantages">
                 <div class="adwantage">
@@ -597,7 +571,7 @@
 
     <!-- fancybox -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script> -->
-    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/jquery.fancybox.min.js"></script> -->
     
     <script src="js/fancybox.js"></script>
 
