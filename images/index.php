@@ -200,7 +200,7 @@
                     <ul class="gallery-list group">
                         <li class="our_work_example workExample_wide" >
                                 <a class="our_work_image" data-fancybox="gallery" href="images/1.png" >
-                                    <img class="" src="images/1min.jpg">
+                                        <img class="" src="images/1min.jpg">
                                 <p>
                                 Натяжной потолок матовый <br>
                                 г. Харьков, ул. Киевская 50
@@ -269,47 +269,6 @@
                                 г. Харьков, ул. Киевская 50
                             </p>
                                 </a>
-
-                         <div class='schow_more' style='display: none'>
-
-                               
-                      <!--   <li class="our_work_example workExample_wide">
-                                <a class="our_work_image" href="images/9.png" >
-                                        <img class="" src="images/9min.jpg">
-                                <p>
-                                Натяжной потолок матовый <br>
-                                г. Харьков, ул. Киевская 50
-                            </p>
-                                </a>
-                        </li>
-                        <li class="our_work_example">
-                                <a class="our_work_image" href="images/10.png" >
-                                        <img class="" src="images/10min.jpg">
-                                <p>
-                                Натяжной потолок матовый <br>
-                                г. Харьков, ул. Киевская 50
-                            </p>
-                                </a>
-                        </li>
-                        <li class="our_work_example">
-                                <a class="our_work_image" href="images/11.png" >
-                                        <img class="" src="images/11min.jpg">
-                                <p>
-                                Натяжной потолок матовый <br>
-                                г. Харьков, ул. Киевская 50
-                            </p>
-                                </a>
-                        </li>
-                        <li class="our_work_example">
-                                <a class="our_work_image" href="images/12.png" >
-                                        <img class="" src="images/12min.jpg">
-                                <p>
-                                Натяжной потолок матовый <br>
-                                г. Харьков, ул. Киевская 50
-                            </p>
-                                </a>
-                        </li> -->
-                                 
                         </div>
                     </ul>
 				</section>
